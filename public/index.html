@@ -19,44 +19,57 @@
       </div>
     </div>
     <div class="container">
-      <h3>Association Analysis</h3>
-      <p><strong id="filteredCount">0</strong> of <strong id="entryCount">0</strong> articles</p>
-      <div class="row">
-        <div class="span8">
-          <table id="associations">
-            <tr>
-              <th style="width:230px; padding-right:10px;">
-                <span style="float:right;">Attributes</span></th>
-              <th style="width:350px; padding-left:10px;">
-                <span style="float:left;">Frequency</span>
-              </th>
-            </tr>
-          </table>
+      <h1>Vis Trend</h1>
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#trend-view" data-toggle="tab">Trend</a></li>
+        <li><a href="#association-view" data-toggle="tab">Association</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="trend-view">
+          <h3>Trend</h3>
+          <!-- TODO -->
         </div>
-        <div class="span4">
-          <form action="#">
-            <fieldset id="year">
-              <legend>Year</legend>
-              <label for="yearFrom">From</label>
-              <select id="yearFrom" name="yearFrom">
-              </select>
-              <label for="yearTo">To</label>
-              <select id="yearTo" name="yearTo">
-              </select>
-            </fieldset>
-            <fieldset id="categories">
-              <legend>Categories</legend>
-            </fieldset>
-            <fieldset id="metrics">
-              <legend>Metrics</legend>
-            </fieldset>
-            <fieldset id="methods">
-              <legend>Methods</legend>
-            </fieldset>
-            <fieldset id="index-terms">
-              <legend>Index Terms</legend>
-            </fieldset>
-          </form>
+        <div class="tab-pane" id="association-view">
+          <h3>Association Analysis</h3>
+          <p><strong id="filteredCount">0</strong> of <strong id="entryCount">0</strong> articles</p>
+          <div class="row">
+            <div class="span8">
+              <table id="associations">
+                <tr>
+                  <th style="width:230px; padding-right:10px;">
+                    <span style="float:right;">Attributes</span></th>
+                  <th style="width:350px; padding-left:10px;">
+                    <span style="float:left;">Frequency</span>
+                  </th>
+                </tr>
+              </table>
+            </div>
+            <div class="span4">
+              <form action="#">
+                <fieldset id="year">
+                  <legend>Year</legend>
+                  <label for="yearFrom">From</label>
+                  <select id="yearFrom" name="yearFrom">
+                  </select>
+                  <label for="yearTo">To</label>
+                  <select id="yearTo" name="yearTo">
+                  </select>
+                </fieldset>
+                <fieldset id="categories">
+                  <legend>Categories</legend>
+                </fieldset>
+                <fieldset id="metrics">
+                  <legend>Metrics</legend>
+                </fieldset>
+                <fieldset id="methods">
+                  <legend>Methods</legend>
+                </fieldset>
+                <fieldset id="index-terms">
+                  <legend>Index Terms</legend>
+                </fieldset>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
