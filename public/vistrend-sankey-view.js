@@ -46,7 +46,8 @@ $(function() {
       .call(d3.behavior.drag()
         .origin(function(d) { return d; })
         .on("dragstart", function() { this.parentNode.appendChild(this); })
-        .on("drag", dragmove));
+        .on("drag", dragmove))
+      .call(mouseroverNode);
 
     var nodeOpacityScale = d3.scale.linear()
       .domain(d3.extent(data.nodes, function(d) {return d.items.length;}))
@@ -75,6 +76,23 @@ $(function() {
       d3.select(this).attr("transform", "translate(" + d.x + "," + (d.y = Math.max(0, Math.min(height - d.dy, d3.event.y))) + ")");
       sankey.relayout();
       link.attr("d", path);
+    }
+
+    function mouseroverNode(selection) {
+      selection
+        .on("mouseover", function() {
+          var node = d3.select(this).datum();
+          svg.selectAll(".link")
+            .filter(function(d) {return d.source == node || d.target == node;})
+            .classed("active", true)
+            ;
+        })
+        .on("mouseout", function() {
+          svg.selectAll(".link.active")
+            .classed("active", false)
+            ;
+        })
+        ;
     }
   });
 });

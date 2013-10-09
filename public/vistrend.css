@@ -14,7 +14,7 @@
   stroke-opacity: .2;
 }
 
-#sankey-view .link:hover {
+#sankey-view .link:hover, #sankey-view .link.active {
   stroke-opacity: .5;
 }
 
