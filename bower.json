@@ -1,0 +1,24 @@
+{
+  "name": "vistrend",
+  "version": "0.0.0",
+  "homepage": "https://github.com/likr/vistrend",
+  "authors": [
+    "Yosuke ONOUE <onoue@likr-lab.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "2.3.2",
+    "d3-plugins": "*",
+    "d3": "~3.3.6",
+    "jquery": "~2.0.3"
+  }
+}
