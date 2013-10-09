@@ -1,0 +1,20 @@
+#sankey-view .node rect {
+  cursor: move;
+  shape-rendering: crispEdges;
+}
+
+#sankey-view .node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#sankey-view .link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+
+#sankey-view .link:hover {
+  stroke-opacity: .5;
+}
+

@@ -1,12 +1,12 @@
 from __future__ import print_function
-import csv
+import os
 import json
 from functools import reduce
 
 
 def entry_count(entries, c):
     return len([entry for entry in entries
-        if all([item in entry['attributes'] for item in c])])
+                if all([item in entry for item in c])])
 
 
 def gen(L0, items):
@@ -27,31 +27,34 @@ def apriori(entries, items, minsup):
 
     while L[k - 1]:
         L.append(set([c for c in gen(L[k - 1], items)
-            if entry_count(entries, c) >= minsup]))
+                      if entry_count(entries, c) >= minsup]))
         k += 1
-    return L
+    return reduce(lambda a, b: a | b, L)
 
 
 def main():
-    data = json.load(open('vistrend.json'))
+    infilename = os.path.dirname(__file__) + '/../public/vistrend.json'
+    outfilename = os.path.dirname(__file__) + '/../public/association.json'
+    data = json.load(open(infilename))
+    entries = []
     for entry in data['entries']:
-        entry['attributes'] = set()
+        attributes = set()
         for metric in data['meta']['metrics']:
             if entry['metrics'][metric]:
-                entry['attributes'].add(metric)
+                attributes.add(metric)
         for method in data['meta']['methods']:
             if entry['methods'][method]:
-                entry['attributes'].add(method)
+                attributes.add(method)
+        entries.append(attributes)
     items = data['meta']['metrics'] + data['meta']['methods']
-    minsup = len(data['entries']) // 10
+    minsup = len(entries) // 10
     minsup = 1
-    res = reduce(lambda a, b : a | b, apriori(data['entries'], items, minsup))
-    rep = [{'attributes' : list(s), 'count' : entry_count(data['entries'], s)}
-            for s in res]
-    rep.sort(key=lambda s : s['count'], reverse=True)
+    res = apriori(entries, items, minsup)
+    rep = [{'attributes': list(s), 'count': entry_count(entries, s)} for s in res]
+    rep.sort(key=lambda s: s['count'], reverse=True)
     for e in rep:
         print(e['count'], ', '.join(e['attributes']))
-    json.dump(rep, open('association.json', 'w'))
+    json.dump(rep, open(outfilename, 'w'))
 
 
 if __name__ == '__main__':

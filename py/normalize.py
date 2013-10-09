@@ -1,6 +1,7 @@
 from __future__ import print_function
 import csv
 
+
 def main():
     reader = csv.reader(open('vistrend.csv'))
     writer = csv.writer(open('vistrend2.csv', 'w'))
