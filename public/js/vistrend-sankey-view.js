@@ -160,7 +160,7 @@ $(function() {
               } else {
                 return 0.1;
               }
-            });
+            })
             ;
 
           sankey.relayout();

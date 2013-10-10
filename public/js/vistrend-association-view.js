@@ -135,7 +135,7 @@ $(function () {
   }
 
 
-  d3.json('vistrend.json', function (data) {
+  d3.json('data/vistrend.json', function (data) {
     var entryCount = data.entries.length,
       maxAssociationCount = entryCount,
       entries = data.entries,
@@ -241,7 +241,7 @@ $(function () {
       })
       ;
 
-    d3.json("association.json", function(data) {
+    d3.json("data/association.json", function(data) {
       associations = data;
       maxAssociationCount = d3.max(associations, function(association) {
         return association.count;
