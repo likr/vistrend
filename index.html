@@ -6,9 +6,12 @@
     <script src="bower_components/jquery/jquery.min.js"></script>
     <script src="bower_components/bootstrap/bootstrap/js/bootstrap.js"></script>
     <script src="bower_components/d3/d3.min.js"></script>
-    <script src="vistrend.js"></script>
+    <script src="bower_components/d3-plugins/sankey/sankey.js"></script>
+    <script src="js/vistrend-association-view.js"></script>
+    <script src="js/vistrend-sankey-view.js"></script>
+    <script src="js/vistrend.js"></script>
     <link rel="stylesheet" href="bower_components/bootstrap/bootstrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="vistrend.css"/>
+    <link rel="stylesheet" href="css/vistrend.css"/>
   </head>
   <body>
     <div class="navbar navbar-inverse navbar-static-top">
@@ -23,6 +26,7 @@
       <ul class="nav nav-tabs">
         <li class="active"><a href="#trend-view" data-toggle="tab">Trend</a></li>
         <li><a href="#association-view" data-toggle="tab">Association</a></li>
+        <li><a href="#sankey-view" data-toggle="tab">Sankey</a></li>
       </ul>
       <div class="tab-content">
         <div class="tab-pane active" id="trend-view">
@@ -70,6 +74,10 @@
               </form>
             </div>
           </div>
+        </div>
+        <div class="tab-pane" id="sankey-view">
+          <h3>Sankey</h3>
+          <div id="sankey-svg"></div>
         </div>
       </div>
     </div>

@@ -1,0 +1,7 @@
+$(function () {
+    function initTrendView() {
+    }
+
+
+    initTrendView();
+});

@@ -1,0 +1,23 @@
+#sankey-view .node rect {
+  cursor: pointer;
+  shape-rendering: crispEdges;
+}
+
+#sankey-view .node.transparent rect {
+  opacity: 0.2;
+}
+
+#sankey-view .node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#sankey-view .link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.1;
+}
+
+#sankey-view .link:hover, #sankey-view .link.active {
+  stroke-opacity: .5;
+}
