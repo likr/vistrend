@@ -1,0 +1,703 @@
+{
+  "methods": [
+    {
+      "name": "Computational Experiments",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 1
+        }, 
+        {
+          "year": 2011, 
+          "count": 12
+        }, 
+        {
+          "year": 2012, 
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Subjective experiments ",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 5
+        }, 
+        {
+          "year": 2011, 
+          "count": 11
+        }, 
+        {
+          "year": 2012, 
+          "count": 5
+        }
+      ]
+    },
+    {
+      "name": "Case study",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 7
+        }, 
+        {
+          "year": 2011, 
+          "count": 31
+        }, 
+        {
+          "year": 2012, 
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Comparison with other method",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 1
+        }, 
+        {
+          "year": 2011, 
+          "count": 10
+        }, 
+        {
+          "year": 2012, 
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Emprical analysis",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 3
+        }, 
+        {
+          "year": 2011, 
+          "count": 3
+        }, 
+        {
+          "year": 2012, 
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "User study",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 7
+        }, 
+        {
+          "year": 2011, 
+          "count": 15
+        }, 
+        {
+          "year": 2012, 
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Theoretical Analysis",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 0
+        }, 
+        {
+          "year": 2011, 
+          "count": 0
+        }, 
+        {
+          "year": 2012, 
+          "count": 0
+        }
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "name": "Speed",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 3
+        }, 
+        {
+          "year": 2011, 
+          "count": 10
+        }, 
+        {
+          "year": 2012, 
+          "count": 2
+        }
+      ]
+    },
+    {
+      "name": "Accuracy",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 3
+        }, 
+        {
+          "year": 2011, 
+          "count": 7
+        }, 
+        {
+          "year": 2012, 
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Scalability",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 1
+        }, 
+        {
+          "year": 2011, 
+          "count": 12
+        }, 
+        {
+          "year": 2012, 
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Efficiency",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 4
+        }, 
+        {
+          "year": 2011, 
+          "count": 13
+        }, 
+        {
+          "year": 2012, 
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "effectiveness",
+      "counts": [
+       {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 2
+        }, 
+        {
+          "year": 2011, 
+          "count": 22
+        }, 
+        {
+          "year": 2012, 
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Satisfaction",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 0
+        }, 
+        {
+          "year": 2011, 
+          "count": 1
+        }, 
+        {
+          "year": 2012, 
+          "count": 1
+        }
+      ]
+    },
+    {
+      "name": "Utility",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 1
+        }, 
+        {
+          "year": 2011, 
+          "count": 13
+        }, 
+        {
+          "year": 2012, 
+          "count": 4
+        }
+      ]
+    },
+    {
+      "name": "Learnability",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 0
+        }, 
+        {
+          "year": 2011, 
+          "count": 2
+        }, 
+        {
+          "year": 2012, 
+          "count": 3
+        }
+      ]
+    },
+    {
+      "name": "Adoption",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 7
+        }, 
+        {
+          "year": 2011, 
+          "count": 10
+        }, 
+        {
+          "year": 2012, 
+          "count": 8
+        }
+      ]
+    },
+    {
+      "name": "Productivity",
+      "counts": [
+        {
+          "year": 2004,
+          "count": 0
+        },
+        {
+          "year": 2005,
+          "count": 0
+        },
+        {
+          "year": 2006,
+          "count": 0
+        },
+        {
+          "year": 2007,
+          "count": 0
+        },
+        {
+          "year": 2008,
+          "count": 0
+        },
+        {
+          "year": 2009, 
+          "count": 0
+        }, 
+        {
+          "year": 2010, 
+          "count": 1
+        }, 
+        {
+          "year": 2011, 
+          "count": 3
+        }, 
+        {
+          "year": 2012, 
+          "count": 1
+        }
+      ]
+    }
+  ]
+}
