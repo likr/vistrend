@@ -1,3 +1,31 @@
+#trend-view .axis {
+    font-family: arial;
+    font-size:0.6em;
+}
+
+#trend-view path {
+    fill:none;
+    stroke:black;
+    stroke-width:2px;
+}
+
+#trend-view .tick {
+    fill:none;
+    stroke:black;
+}
+
+#trend-view circle{
+    stroke:black;
+    stroke-width:0.5px;
+}
+
+#trend-view .legend {
+    padding: 5px;
+    font: 10px sans-serif;
+    background: yellow;
+    box-shadow: 2px 2px 1px #888;
+}
+
 #sankey-view .node rect {
   cursor: pointer;
   shape-rendering: crispEdges;
