@@ -84,7 +84,12 @@ $(function() {
         .on("click", function() {
           var set = d3.select(this).datum();
 
-          var y = 0;
+          var nodes = d3.selectAll(".node")
+            .filter(function(d) {return d.x == set.x;})
+            .data();
+          var y = d3.min(nodes, function(d) {
+            return d.y;
+          });
 
           var upperNodes = svg.selectAll(".node")
             .filter(function(d) {
@@ -106,6 +111,7 @@ $(function() {
             y += d.dy;
           });
 
+          set.y = y;
           y += set.dy;
 
           var lowerNodes = svg.selectAll(".node")
@@ -117,7 +123,11 @@ $(function() {
           lowerNodes.sort(function(d1, d2) {
             var b1 = set.items.every(function(e) {return d1.items.indexOf(e) >= 0;});
             var b2 = set.items.every(function(e) {return d2.items.indexOf(e) >= 0;});
-            return b2 - b1;
+            if (b1 == b2) {
+              return d1.y - d2.y;
+            } else {
+              return b2 - b1;
+            }
           });
           lowerNodes.forEach(function(d) {
             d.y = y;
