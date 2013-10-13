@@ -1,4 +1,5 @@
 from __future__ import print_function
+import os.path
 import csv
 import json
 
@@ -65,7 +66,9 @@ def conv_row(row):
 
 
 def main():
-    infile = open('vistrend2.csv')
+    infilename = os.path.dirname(__file__) + '/../vistrend.csv'
+    outfilename = os.path.dirname(__file__) + '/../public/data/vistrend.json'
+    infile = open(infilename)
     reader = csv.reader(infile)
     objects = []
     for row in reader:
@@ -77,7 +80,7 @@ def main():
             'methods': methods,
         }
     }
-    outfile = open('vistrend.json', 'w')
+    outfile = open(outfilename, 'w')
     json.dump(data, outfile)
 
 

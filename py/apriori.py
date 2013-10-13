@@ -33,8 +33,8 @@ def apriori(entries, items, minsup):
 
 
 def main():
-    infilename = os.path.dirname(__file__) + '/../public/vistrend.json'
-    outfilename = os.path.dirname(__file__) + '/../public/association.json'
+    infilename = os.path.dirname(__file__) + '/../public/data/vistrend.json'
+    outfilename = os.path.dirname(__file__) + '/../public/data/association.json'
     data = json.load(open(infilename))
     entries = []
     for entry in data['entries']:

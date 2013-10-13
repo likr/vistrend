@@ -13,7 +13,7 @@ def main():
     infilename = os.path.dirname(__file__) + '/../vistrend.csv'
     outfilename = os.path.dirname(__file__) + '/../public/data/sankey.json'
     data = [conv.conv_row(row) for row in csv.reader(open(infilename))]
-    categories = ['InfoVis', 'VAST']
+    categories = ['SciVis', 'InfoVis', 'VAST']
 
     metrics = set(conv.metrics)
     metrics_entries = [set(k for k, v in row['metrics'].items() if v) for row in data]
