@@ -17,12 +17,13 @@ metrics = [
     'Productivity',
 ]
 methods = [
-    'Computational experiments',
-    'Subjective experiments',
-    'Case study',
+    'Computational Experiments',
+    'Subjective Experiments',
+    'Case Study',
     'Comparison with other method',
-    'Empirical analysis',
-    'Informal comments',
+    'Empirical Analysis',
+    'User Study',
+    'Theoretical Analysis',
 ]
 
 
@@ -55,12 +56,13 @@ def conv_row(row):
             'Productivity': int(row[15]) if row[15] else 0,
             },
         'methods': {
-            'Computational experiments': int(row[16]) if row[16] else 0,
-            'Subjective experiments': int(row[17]) if row[17] else 0,
-            'Case study': int(row[18]) if row[18] else 0,
+            'Computational Experiments': int(row[16]) if row[16] else 0,
+            'Subjective Experiments': int(row[17]) if row[17] else 0,
+            'Case Study': int(row[18]) if row[18] else 0,
             'Comparison with other method': int(row[19]) if row[19] else 0,
-            'Empirical analysis': int(row[20]) if row[20] else 0,
-            'Informal comments': int(row[21]) if row[21] else 0,
+            'Empirical Analysis': int(row[20]) if row[20] else 0,
+            'User Study': int(row[21]) if row[21] else 0,
+            'Theoretical Analysis': int(row[22]) if row[22] else 0,
         },
     }
 
