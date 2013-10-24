@@ -1,0 +1,63 @@
+Title,Year,Category,Session,Author,Keyword,Speed,Accuracy,Scability,Efficiency,Effectiveness,Satisfaction,Utility,Learnability,Adoption,Productivity,Computational experiments,Subjective experiments ,Case study,Comparison with other method,Empirical analysis,User Study ,Theoretical Analysis
+Continuous Scatterplots,2008,SciVis,,"Sven Bachthaler , Daniel Weiskopf","Scatterplot, histogram, continuous frequency plot, interpolation.",,1,,,,,,,,,,,1,,,,
+Extensions of Parallel Coordinates for Interactive Exploration of Large Multi-Timepoint Data Sets,2008,SciVis,,"Jorik Blaas, Charl P. Botha ,Frits H. Post
+
+","Parallel coordinate plots, time-varying, multi-field, linked related views.",1,1,,,,,,,,,1,,1,,,,
+Direct Volume Editing,2008,SciVis,,"Kai Burger, Jens Kruger,  Rudiger Westermann
+
+","Volume editing, GPU, painting, carving, annotations.",1,,,,,,,,,,1,,,,,,
+Texture-based Transfer Functions for Direct Volume Rendering,2008,SciVis,,"Jesus J. Caban, Penny Rheingans
+
+","visualization, statistical analysis, volume rendering, data variability, medical imaging",1,1,,1,,,,,,,1,,1,,,,
+Relation-Aware Volume Exploration Pipeline,2008,SciVis,,"Ming-Yuen Chan, Huamin Qu, Ka-Kei Chung, Wai-Ho Mak, Yingcai Wu
+
+","Exploratory Visualization, Relation-Based Visualization, Visualization Pipeline.",,1,,1,,,,,,,,,1,,,,
+AD-Frustum: Adaptive Frustum Tracing for Interactive Sound Propagation,2008,SciVis,,"Anish Chandak, Christian Lauterbach, Micah Taylor, Zhimin Ren, and Dinesh Manocha","Sound propagation, interactive system, auralization",1,,1,,,,,,,,1,,1,,,,
+Text Scaffolds for Effective Surface Labeling,2008,SciVis,,"Gregory Cipriano, Michael Gleicher","surface labeling, computational cartography, text authoring, annotation",,1,,,1,,,,,,,,1,,,,
+Size-based Transfer Functions: A New Volume Exploration Technique,2008,SciVis,,"Carlos D. Correa, Kwan-Liu Ma","Transfer Functions, Interactive Visualization, Volume Rendering, Scale Space, GPU Techniques.",1,1,,,1,,,,,,1,,1,,,,
+Effective Visualization of Short Routes,2008,SciVis,,"Patrick Degener, Ruwen Schnabel, Christopher Schwartz, Reinhard Klein","Maps, Route visualization, Space deformation.",,1,,,1,,,,,,,,,,,1,
+Edge Groups: An Approach to Understanding the Mesh Quality of Marching Methods,2008,SciVis,,"Carlos A. Dietrich, Carlos E. Scheidegger, Joao L. D. Comba, Luciana P. Nedel ,Claudio T. Silva","Isosurface extraction, Marching Cubes.",,1,,1,,,,,,,1,,,1,,,
+Generation of Accurate Integral Surfaces in Time-Dependent Vector Fields,2008,SciVis,,"Christoph Garth, Hari Krishnan, Xavier Tricoche,Tom Bobach, Kenneth I. Joy
+
+","3D vector field visualization, flow visualization, time-varying and time-series visualization, surface extraction",,1,,,1,,,,,,1,,,1,,,
+Visualizing Temporal Patterns in Large Multivariate Data using Textual Pattern Matching,2008,SciVis,,"Markus Glatter, Jian Huang,Sean Ahern, Jamison Daniel, Aidong Lu
+
+","Multivariate visualization, Time-varying, Uncertainty.",1,1,1,,,,,,,,1,,,1,,,
+Query-Driven Visualization of Time-Varying Adaptive Mesh Refinement Data,2008,SciVis,,"Luke J. Gosink, John C. Anderson, E. Wes Bethel, Kenneth I. Joy","AMR, Query-Driven Visualization, Multitemporal Visualization",,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,
+,2008,SciVis,,,,,,,,,,,,,,,,,,,,

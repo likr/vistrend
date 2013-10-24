@@ -1,0 +1,95 @@
+Title,Year,Category,Session,Author,Keyword,Speed,Accuracy,Scability,Efficiency,Effectiveness,Satisfaction,Utility,Learnability,Adoption,Productivity,Computational experiments,Subjective experiments ,Case study,Comparison with other method,Empirical analysis,User Study ,Theoretical Analysis
+Interactive Visual Clustering of Large Collections of Trajectories,2009,VAST,,"Gennady Andrienko1, Natalia Andrienko1, Salvatore Rinzivillo2, Mirco Nanni2, Dino Pedreschi3, Fosca Giannotti2","Spatio-temporal data, movement data, trajectories,
+clustering, classification, scalable visualization, geovisualization.",,,,,,,,,,,,,1,,,,
+Proximity-based Visualization of Movement Trace Data,2009,VAST,,"Tarik Crnovrsanin
+University of California, Davis
+Chris Muelder†
+University of California, Davis
+Carlos Correa‡
+University of California, Davis
+Kwan-Liu Ma§
+University of California, Davis","Spatio-temporal visualization, proximity, linked
+views, principal component analysis, temporal trajectories, movement
+patterns.",,,,,,,,,,,,,1,,,,
+"Guided Analysis of Hurricane Trends Using Statistical Processes
+Integrated with Interactive Parallel Coordinates",2009,VAST,,"Chad A. Steed
+
+J. Edward Swan II†
+
+T.J. Jankun-Kelly‡
+
+Patrick J. Fitzpatrick§
+","Climate study, multivariate data, correlation, regression,
+interaction, statistical analysis, visual analytics.",,,,,,,,,,,,,1,,,,
+"Finding Comparable Temporal Categorical Records:
+A Similarity Measure with an Interactive Visualization",2009,VAST,,Krist Wongsuphasawat Ben Shneiderman,"Similan, M&M Measure, Similarity Search, Temporal
+Categorical Records",,,,,,,,,,,,,,,,1,
+"A Visual Analytics System for Radio Frequency Fingerprinting-based
+Localization",2009,VAST,,Yi Han Erich P. Stuntebeck† John T. Stasko‡ Gregory D. Abowd,,,,,,,,,,,,1,,,,,,
+Geovisual Analytics for Self-Organizing Network Data,2009,VAST,,"Ho Van Quan, Tobias Åström, Mikael Jern","Geovisual analytics, visualization, self-organizing
+network, multi-layer, multi-dimensional, time-varying, geospatial
+data sets.",,,,,,,,,,,,,,,,1,
+A Framework for Uncertainty-Aware Visual Analytics,2009,VAST,,Carlos D. Correa ∗ Yu-Hsuan Chan † Kwan-Liu Ma ‡,"Uncertainty, Data Transformations, Principal Component
+Analysis, Model Fitting",,,,,,,,,,,,,1,,,,
+"Combining automated analysis and visualization techniques
+for effective exploration of high-dimensional data",2009,VAST,,"Andrada Tatu
+
+Georgia Albuquerque†
+
+Martin Eisemann‡
+
+J¨ orn Schneidewind§
+
+Holger Theisel¶
+
+Marcus Magnork
+
+Daniel Keim
+",,1,,,,,,,,,,,,,,,,
+"Two-stage Framework for Visualization
+of Clustered High Dimensional Data",2009,VAST,,"Jaegul Choo∗
+Shawn Bohn†
+Haesun Park","dimension reduction, linear discriminant analysis,
+principal component analysis, orthogonal centroid method, 2D projection,
+clustered data, regularization, generalized singular value
+decomposition",,,,,,,,,,,,,,1,,,
+Model Space Visualization for Multivariate Linear Trend Discovery,2009,VAST,,Zhenyu Guo Matthew O. Ward Elke A. Rundensteiner,"Knowledge Discovery, visual analysis, multivariate
+linear model construction, model space visualization.",,,,,,,,,,,,,1,,,,
+LSAView: A Tool for Visual Exploration of Latent Semantic Modeling,2009,VAST,,Patricia J. Crossno Daniel M. Dunlavy† Timothy M. Shead‡,,,,,,,,,1,,,,,1,,,,
+Parallel Tag Clouds to Explore and Analyze Faceted Text Corpora,2009,VAST,,"Christopher Collins
+Fernanda B. Vi ´egas, and Martin Wattenberg","Text visualization, corpus visualization, information retrieval,
+text mining, tag clouds.",,1,,,,,,,,,,,,,,1,
+Describing Story Evolution from Dynamic Information Streams,2009,VAST,,Stuart Rose Scott Butner† Wendy Cowley‡ Michelle Gregory§ Julia Walker¶,,,,,,,,,,,,1,,,,,,
+"What’s Being Said Near “Martha”?
+Exploring Name Entities in Literary Text Collections",2009,VAST,,Romain Vuillemot1 Tanya Clement2 Catherine Plaisant2 Amit Kumar3,"Visual Analytics, Design, Experimentation, Human
+Factors.",,,,,,,,,,,,,1,,,1,
+VAST Contest Dataset Use in Education,2009,VAST,,"Mark A. Whiting1, Chris North2, Alex Endert2, Jean Scholtz1, Jereme Haack1, Carrie Varley1, Jim Thomas1","education, evaluation, synthetic data.",,,,,,,,1,,,,,,,,1,
+Connecting the Dots in Visual Analysis,2009,VAST,,"Yedendra B. Shrinivasan
+David Gotzy
+Jie Lu",,,,,,,,,,,,,,1,,,,
+Capturing and Supporting the Analysis Process,2009,VAST,,"Nazanin Kadivar, Victor Chen, Dustin Dunsmuir, Eric Lee, Cheryl Qian, John Dill, Christopher Shaw, Robert Woodbury","Visual Analytics, Sense-making, Analysis Process, Visual History",,,,,1,,,1,,,,,,,,,
+"Evaluating Visual Analytics Systems for Investigative Analysis:
+Deriving Design Principles from a Case Study",2009,VAST,,Youn-ah Kang Carsten G¨org† John Stasko,,,,,,,,,1,,,,,,,,1,
+A Multi-Level Middle-Out Cross-Zooming Approach for Large Graph Analytics,2009,VAST,,"Pak Chung Wong1, Patrick Mackey2, Kristin A. Cook3, Randall M. Rohrer4, Harlan Foote5, Mark A. Whiting6","Graph analytics, information visualization.",,,,,,,,,,,,,1,,,,
+Visual Analysis of Graphs with Multiple Connected Components,2009,VAST,,"Tatiana von Landesberger
+Melanie G¨orner†
+Tobias Schreck",,,,,,,,,,,,1,,,,,,
+"MassVis: Visual Analysis of
+Protein Complexes Using Mass Spectrometry",2009,VAST,,"Robert Kincaid*
+Kurt Dejgaard+","information visualization, visual analysis, correlation
+analysis, mass spectrometry, proteomics, interactome.",,,,,,,,,,,,,,,,1,
+"Using Projection and 2D Plots to Visually Reveal Genetic Mechanisms of
+Complex Human Disorders",2009,VAST,,"Boonthanome Nouanesengsy∗
+Sang-Cheol Seok†
+Han-Wei Shen‡
+Veronica J Vieland§","Visualization, Multidimensional data, Linkage Analysis,
+Posterior Probability of Linkage, PPL, PPLD, LD analysis,
+Linkage disequilibrium, Autism",,,,,,,,,,,,,1,,,,
+SpRay: A Visual Analytics Approach for Gene Expression Data,2009,VAST,,"Janko Dietzsch
+Julian Heinrich†
+Kay Nieselt‡
+Dirk Bartz","Visual analytics, bioinformatics, gene expression experiments,
+microarray data, large-scale microarray",,,,,,,,,,,1,,,,,,
+Visual Opinion Analysis of Customer Feedback Data,2009,VAST,,"Daniela Oelke², Ming Hao1, Christian Rohrdantz², Daniel A. Keim², Umeshwar Dayal1, Lars-Erik Haug1, Halldór Janetzko²","Visual Opinion Analysis, Visual Sentiment Analysis, Visual Document Analysis, Attribute Extraction",,1,,,,,,,,,1,,,,,,
+FinVis: Applied Visual Analytics for Personal Financial Planning,2009,VAST,,Stephen Rudolph∗ Anya Savikhin† David S. Ebert ∗,"Casual Information Visualization, visual analytics,
+personal finance, visualization of risk, economic decision-making.",,,,,,,,,,,,,,,,,
