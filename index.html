@@ -4,89 +4,52 @@
     <meta charset="utf-8">
     <title>Vis Trend</title>
     <script src="bower_components/jquery/jquery.min.js"></script>
-    <script src="bower_components/bootstrap/bootstrap/js/bootstrap.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/d3/d3.min.js"></script>
     <script src="bower_components/d3-plugins/sankey/sankey.js"></script>
-    <script src="js/vistrend-trend-view.js"></script>
-    <script src="js/vistrend-association-view.js"></script>
-    <script src="js/vistrend-co-occurrence-view.js"></script>
-    <script src="js/vistrend-sankey-view.js"></script>
+    <script src="js/vistrend-views.js"></script>
     <script src="js/vistrend.js"></script>
-    <link rel="stylesheet" href="bower_components/bootstrap/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/vistrend.css"/>
   </head>
   <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="brand" href="/#">VisTrend</a>
-        </div>
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">VisTrend</a>
       </div>
     </div>
     <div class="container">
       <h1>Vis Trend</h1>
-      <ul class="nav nav-tabs">
-        <li class="active"><a href="#trend-view" data-toggle="tab">Trend</a></li>
-        <li><a href="#association-view" data-toggle="tab">Association</a></li>
-        <li><a href="#sankey-view" data-toggle="tab">Sankey</a></li>
-        <li><a href="#co-occurrence-view" data-toggle="tab">Co-Occurrence</a></li>
+      <div>
+        <h2>Filter</h2>
+        <p><strong id="filteredCount">0</strong> of <strong id="entryCount">0</strong> articles</p>
+        <form action="#">
+          <fieldset id="year">
+            <legend>Year</legend>
+            <label for="yearFrom">From</label>
+            <select id="yearFrom" name="yearFrom">
+            </select>
+            <label for="yearTo">To</label>
+            <select id="yearTo" name="yearTo">
+            </select>
+          </fieldset>
+          <fieldset id="categories">
+            <legend>Categories</legend>
+          </fieldset>
+          <fieldset id="metrics">
+            <legend>Metrics</legend>
+          </fieldset>
+          <fieldset id="methods">
+            <legend>Methods</legend>
+          </fieldset>
+        </form>
+      </div>
+      <div>
+        <h2>Analysis</h2>
+      </div>
+      <ul id="view-tab-headers" class="nav nav-tabs">
       </ul>
-      <div class="tab-content">
-        <div class="tab-pane active" id="trend-view">
-          <h3>Trend</h3>
-          <svg id="trend-view-svg1"></svg>
-          <svg id="trend-view-svg2"></svg>
-        </div>
-        <div class="tab-pane" id="association-view">
-          <h3>Association Analysis</h3>
-          <p><strong id="filteredCount">0</strong> of <strong id="entryCount">0</strong> articles</p>
-          <div class="row">
-            <div class="span8">
-              <table id="associations">
-                <tr>
-                  <th style="width:230px; padding-right:10px;">
-                    <span style="float:right;">Attributes</span></th>
-                  <th style="width:350px; padding-left:10px;">
-                    <span style="float:left;">Frequency</span>
-                  </th>
-                </tr>
-              </table>
-            </div>
-            <div class="span4">
-              <form action="#">
-                <fieldset id="year">
-                  <legend>Year</legend>
-                  <label for="yearFrom">From</label>
-                  <select id="yearFrom" name="yearFrom">
-                  </select>
-                  <label for="yearTo">To</label>
-                  <select id="yearTo" name="yearTo">
-                  </select>
-                </fieldset>
-                <fieldset id="categories">
-                  <legend>Categories</legend>
-                </fieldset>
-                <fieldset id="metrics">
-                  <legend>Metrics</legend>
-                </fieldset>
-                <fieldset id="methods">
-                  <legend>Methods</legend>
-                </fieldset>
-                <fieldset id="index-terms">
-                  <legend>Index Terms</legend>
-                </fieldset>
-              </form>
-            </div>
-          </div>
-        </div>
-        <div class="tab-pane" id="sankey-view">
-          <h3>Sankey</h3>
-          <div id="sankey-svg"></div>
-        </div>
-        <div class="tab-pane" id="co-occurrence-view">
-          <h3>Co-Occurrence Matrix</h3>
-          <svg id="co-occurrence-svg"></svg>
-        </div>
+      <div id="view-tab-contents" class="tab-content">
       </div>
     </div>
   </body>

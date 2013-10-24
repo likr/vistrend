@@ -184,7 +184,7 @@ $(function () {
       .data(["SciVis", "InfoVis", "VAST"])
       .enter()
       .append("label")
-      .classed("checkbox", true)
+      .classed("checkbox-inline", true)
       .classed("category", true)
       .call(function(selection) {
         selection.append("input")
@@ -207,7 +207,7 @@ $(function () {
       .data(data.meta.metrics)
       .enter()
       .append("label")
-      .classed("checkbox", true)
+      .classed("checkbox-inline", true)
       .classed("metric", true)
       .call(function(selection) {
         selection.append("input")
@@ -226,7 +226,7 @@ $(function () {
       .data(data.meta.methods)
       .enter()
       .append("label")
-      .classed("checkbox", true)
+      .classed("checkbox-inline", true)
       .classed("method", true)
       .call(function(selection) {
         selection.append("input")
