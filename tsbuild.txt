@@ -1,0 +1,7 @@
+--out public/js/vistrend-views.js
+ts/vistrend-view.ts
+ts/summary-view.ts
+ts/trend-view.ts
+ts/association-view.ts
+ts/sankey-view.ts
+ts/cooccurrence-view.ts
